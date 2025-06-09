@@ -1,4 +1,4 @@
-import { HTMLProps, MouseEventHandler } from "react";
+import { type HTMLProps, type MouseEventHandler } from "react";
 
 type ButtonProps={
     onClickHandler: MouseEventHandler<HTMLButtonElement>
